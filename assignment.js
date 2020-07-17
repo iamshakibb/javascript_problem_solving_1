@@ -115,7 +115,3 @@ function tinyFriend (names) {
 }
 //Tiny Friend. end.
 
-console.log(feetToMile (600));
-console.log(woodCalculator(20,30,40));
-console.log(brickCalculator(87));
-console.log(tinyFriend(['tabib','shakib','sakib','raib','rito']))
