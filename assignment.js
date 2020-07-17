@@ -114,4 +114,3 @@ function tinyFriend (names) {
   return tinyName;
 }
 //Tiny Friend. end.
-
