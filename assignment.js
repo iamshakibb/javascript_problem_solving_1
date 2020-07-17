@@ -100,15 +100,22 @@ function brickCalculator (floor) {
 //Tiny Friend. Start.
 function tinyFriend (names) {
   let tinyName = names[0]
-
-  for(let i = 0; i < names.length; i++){
-    let currentName = names[i];
-
-    if (currentName.length < tinyName.length){
-      tinyName = currentName;
+    if (!names || !names.length) {
+      return console.log("Put some name in the array.")
+    }else {
+      for(let i = 0; i < names.length; i++){
+        let currentName = names[i];
+        if (currentName.length < tinyName.length){
+          tinyName = currentName;
+        }
+      }
     }
 
-  }
   return tinyName;
 }
 //Tiny Friend. end.
+
+console.log(feetToMile (600));
+console.log(woodCalculator(20,30,40));
+console.log(brickCalculator(87));
+console.log(tinyFriend(['tabib','shakib','sakib','raib','rito']))
