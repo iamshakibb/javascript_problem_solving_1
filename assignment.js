@@ -1,4 +1,4 @@
-//feet To Mile Convaer convert
+//feet To Mile convert.Start.
 function feetToMile(feet) {
   if (feet < 0) {
     console.log("Feet can not be in negative");
@@ -7,7 +7,7 @@ function feetToMile(feet) {
     return mile;
   }
 }
-//feet To Mile Convaer convert
+//feet To Mile convert.End.
 
 
 
